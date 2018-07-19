@@ -5,55 +5,43 @@ theme: hugo-fresh
 
 params:
   hero:
-    tagline: Hugo Fresh theme
-    subTagline: An adaptation of the gorgeous Fresh landing page starter from CSS Ninja
-    buttonText: Click here
+    tagline: DApp开发平台
+    subTagline: 为EOS DApp开发者而生
+    #buttonText: Click here
     image: illustrations/worker.svg
-    bottomIcons:
-    - logos/clients/systek.svg
-    - logos/clients/tribe.svg
-    - logos/clients/kromo.svg
-    - logos/clients/infinite.svg
-    - logos/clients/gutwork.svg
   navbar:
     buttonText: Sign up
     logo:
-      src: logos/fresh.svg
+      src: logos/dappub-long.png
       alt: Main navbar logo
     links:
     - text: Features
       url: /
     - text: Pricing
       url: /
-    - text: Dropdown
-      dropdown: true
-      links:
-      - Dropdown item 1
-      - Dropdown item 2
-      - Dropdown item 3
   features:
-    tagline: Great power comes with great Responsibility
-    subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    tagline: 服务列表
+    subTagline: 我们提供DApp开发所需的基础工具以及开源协议，帮助你高效构建自己的DApp。
     panels:
-    - title: Online App builder
+    - title: EOS账户注册协议
       image: illustrations/icons/mouse-globe.svg
-      text: This is some explanatory text that is on two rows
+      text: 通过交易所提现或者转账的形式帮用户创建账户。
       button:
-        text: Free Trial
-        url: /
+        text: 项目地址
+        url: https://github.com/dapptalking/signupeoseos
       delay: 1
-    - title: Cloud deployment
+    - title: EOS资产交易协议
       image: illustrations/icons/laptop-cloud.svg
-      text: This is some explanatory text that is on two rows
+      text: 在DApp内与其他DApp中的资产直接进行交易。
       button:
-        text: Free Trial
+        text: 项目地址
         url: /
       delay: 2
-    - title: Pluggable tools
+    - title: EOS合约监控系统
       image: illustrations/icons/plug-cloud.svg
-      text: This is some explanatory text that is on two rows
+      text: 完善的链上日志、指标监控系统。
       button:
-        text: Free Trial
+        text: 工具试用
         url: /
       delay: 3
   sellingPoints:
@@ -92,47 +80,24 @@ params:
   contact:
     tagline: Drop us a line or two!
   footer:
-    image: fresh-white.svg
+    image: dappub-long.png
     columns:
     - title: Product
       links:
       - name: Discover features
         url: "#"
-      - name: Why choose our Product?
-        url: "#"
-      - name: Compare features
-        url: "#"
-      - name: Our Roadmap
-        url: "#"
-      - name: Request features
-        url: "#"
     - title: Docs
       links:
       - name: Get Started
-        url: "#"
-      - name: User guides
-        url: "#"
-      - name: Admin guide
-        url: "#"
-      - name: Developers
         url: "#"
     - title: Blogroll
       links:
       - name: Latest News
         url: "#"
-      - name: Tech articles
-        url: "#"
-      - name: Video Blog
-        url: "#"
     followUs:
     - icon: github
-      url: "https://github.com/lucperkins"
-    - icon: dribbble
-      url: "#"
+      url: "https://github.com/dapptalking"
     - icon: facebook
       url: "#"
     - icon: twitter
       url: "https://twitter.com/lucperkins"
-    - icon: bitbucket
-      url: "#"
-
