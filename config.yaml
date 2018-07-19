@@ -7,97 +7,55 @@ params:
   hero:
     tagline: DApp开发平台
     subTagline: 为EOS DApp开发者而生
-    #buttonText: Click here
     image: illustrations/worker.svg
   navbar:
-    buttonText: Sign up
+    panelTrigger: false
     logo:
       src: logos/dappub-long.png
       alt: Main navbar logo
     links:
-    - text: Features
-      url: /
-    - text: Pricing
-      url: /
+    - text: 服务列表
+      url: /#features
   features:
     tagline: 服务列表
     subTagline: 我们提供DApp开发所需的基础工具以及开源协议，帮助你高效构建自己的DApp。
     panels:
-    - title: EOS账户注册协议
+    - title: 账户注册协议
       image: illustrations/icons/mouse-globe.svg
       text: 通过交易所提现或者转账的形式帮用户创建账户。
       button:
         text: 项目地址
         url: https://github.com/dapptalking/signupeoseos
       delay: 1
-    - title: EOS资产交易协议
+    - title: 资产交易协议
       image: illustrations/icons/laptop-cloud.svg
       text: 在DApp内与其他DApp中的资产直接进行交易。
       button:
-        text: 项目地址
+        text: 即将上线
         url: /
       delay: 2
-    - title: EOS合约监控系统
+    - title: 合约监控系统
       image: illustrations/icons/plug-cloud.svg
       text: 完善的链上日志、指标监控系统。
       button:
-        text: 工具试用
+        text: 即将上线
         url: /
       delay: 3
-  sellingPoints:
-    tagline: You're here because you want the best
-    points:
-    - title: Powerful and unified interface
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: laptop-globe
-    - title: Cross device Synchronisation
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad System
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
-  platform:
-    image: illustrations/mockups/app-mockup.png
-    tagline: One Platform to rule them All
-    subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    buttonText: Get Started
-  clients:
-    tagline: Our Clients love us!
-    subTagline: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clientExamples:
-    - name: Irma Walters
-      position: Accountant
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      image: 1.png
-    - name: John Bradley
-      position: Financial Analyst
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      image: 2.png
-    - name: Gary Blackman
-      position: HR Manager
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      image: 3.png
-  contact:
-    tagline: Drop us a line or two!
   footer:
     image: dappub-long.png
     columns:
-    - title: Product
+    - title: 产品
       links:
-      - name: Discover features
-        url: "#"
-    - title: Docs
+      - name: 注册协议
+        url: "https://github.com/dappub/signupeoseos"
+    - title: 博客
       links:
-      - name: Get Started
-        url: "#"
-    - title: Blogroll
-      links:
-      - name: Latest News
-        url: "#"
+      - name: Medium
+        url: "https://medium.com/@thbourlove"
     followUs:
     - icon: github
-      url: "https://github.com/dapptalking"
-    - icon: facebook
-      url: "#"
+      url: "https://github.com/dappub"
+    - icon: medium
+      url: "https://medium.com/@thbourlove"
     - icon: twitter
-      url: "https://twitter.com/lucperkins"
+      url: "https://twitter.com/thbourlove"
