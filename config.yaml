@@ -25,7 +25,7 @@ params:
       text: 通过交易所提现或者转账的形式帮用户创建账户。
       button:
         text: 项目地址
-        url: https://github.com/dapptalking/signupeoseos
+        url: https://github.com/dappub/signupeoseos
       delay: 1
     - title: 资产交易协议
       image: illustrations/icons/laptop-cloud.svg
