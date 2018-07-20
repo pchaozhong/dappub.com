@@ -1,6 +1,6 @@
-baseURL: http://example.org/
+baseURL: https://dappub.github.io/dappub.com/
 languageCode: en-us
-title: Hugo Fresh Theme
+title: Dappub
 theme: hugo-fresh
 
 params:
